@@ -1,4 +1,4 @@
 src/styles/
-├── colors.ts
-├── spacing.ts
-└── typography.ts
+├── colors.tsx
+├── spacing.tsx
+└── typography.tsx
