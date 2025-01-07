@@ -1,7 +1,7 @@
 src/services/
 ├── api/
-│   ├── apiClient.ts
-│   └── userService.ts
+│   ├── apiClient.tsx
+│   └── userService.tsx
 └── firebase/
-    ├── config.ts
-    └── auth.ts
+    ├── config.tsx
+    └── auth.tsx
