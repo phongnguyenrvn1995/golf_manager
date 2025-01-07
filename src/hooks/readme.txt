@@ -1,3 +1,3 @@
 src/hooks/
-├── useFetch.ts
-├── useAuth.ts
+├── useFetch.tsx
+├── useAuth.tsx

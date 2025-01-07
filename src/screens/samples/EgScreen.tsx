@@ -5,12 +5,20 @@ import { StyleSheet, TouchableHighlight, View } from "react-native";
 export const EgScreen = ({navigation}: {navigation: any}) => {
     return (
         <View style={style.container}>
+        <TouchableHighlight
+            activeOpacity={0.6}
+            underlayColor="#DDDDDD"
+            onPress={() => { navigation.navigate('UseStyleEg') }}>
+            <View style={{padding: 20, backgroundColor: 'blue'}}>
+                <Text>Styles folder sample</Text>
+            </View>
+        </TouchableHighlight>
             <TouchableHighlight
                 activeOpacity={0.6}
                 underlayColor="#DDDDDD"
-                onPress={() => { navigation.navigate('UseStyleEg') }}>
-                <View style={{padding: 20, backgroundColor: 'red'}}>
-                    <Text>Styles folder sample</Text>
+                onPress={() => { navigation.navigate('HookEg') }}>
+                <View style={{padding: 20, backgroundColor: 'yellow'}}>
+                    <Text>Hook folder sample</Text>
                 </View>
             </TouchableHighlight>
         </View>

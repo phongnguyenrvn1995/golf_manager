@@ -6,6 +6,7 @@ import ProfileScreen from "../screens/ProfileScreen";
 import ChangeLangScreen from "../screens/ChangeLangScreen";
 import { UseStyleEg } from "../screens/samples/UseStyleEg";
 import { EgScreen } from "../screens/samples/EgScreen";
+import { HookEg } from "../screens/samples/HookEg";
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ const AppNavigator = () => {
         <Stack.Screen name="ChangeLang" component={ChangeLangScreen} />
         <Stack.Screen name="UseStyleEg" component={UseStyleEg} />
         <Stack.Screen name="EgScreen" component={EgScreen} />
+        <Stack.Screen name="HookEg" component={HookEg} />
       </Stack.Navigator>
     </NavigationContainer>
   );
