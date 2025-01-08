@@ -1,6 +1,7 @@
-import { useContext } from "react";
+import { useContext, useReducer } from "react";
 import { Button, Text, View } from "react-native";
 import { MyContext, MyProvider } from "./MyProvider";
+import { counterReducer, initState } from "./counterReducer";
 
 export const PlayGroundScreen = () => {
     return (
@@ -8,6 +9,11 @@ export const PlayGroundScreen = () => {
             <View style={{flex: 1}}>
                 <Text>PlayGroundScreen</Text>
                 <InnerView />
+                
+                <View>
+                    <Text>CounterReducer</Text>
+                    <CounterReducerUI/>
+                </View>
             </View>
         </MyProvider>
     );
@@ -25,3 +31,15 @@ const InnerView = () => {
         </View>
     );
 }
+
+const CounterReducerUI = () => {
+    const [state, dispatch] = useReducer(counterReducer, initState);
+
+    return (
+        <View>
+            <Text>{state.count}</Text>
+            <Button title="+" onPress={() => dispatch({type: "+"})} />
+            <Button title="-" onPress={() => dispatch({type: "-"})} />
+        </View>
+    );
+};
