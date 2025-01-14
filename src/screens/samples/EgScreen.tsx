@@ -30,6 +30,15 @@ export const EgScreen = ({navigation}: {navigation: any}) => {
                     <Text>Service folder sample</Text>
                 </View>
             </TouchableHighlight>
+            
+            <TouchableHighlight
+                activeOpacity={0.6}
+                underlayColor="#DDDDDD"
+                onPress={() => { navigation.navigate('StoreEg') }}>
+                <View style={{padding: 20, backgroundColor: 'cyan'}}>
+                    <Text>Store folder sample</Text>
+                </View>
+            </TouchableHighlight>
         </View>
     );
 }

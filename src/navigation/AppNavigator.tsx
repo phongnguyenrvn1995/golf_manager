@@ -8,6 +8,7 @@ import { UseStyleEg } from "../screens/samples/UseStyleEg";
 import { EgScreen } from "../screens/samples/EgScreen";
 import { HookEg } from "../screens/samples/HookEg";
 import { ServiceEg } from "../screens/samples/ServiceEg";
+import { StoreEg } from "../screens/samples/StoreEg";
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +23,7 @@ const AppNavigator = () => {
         <Stack.Screen name="EgScreen" component={EgScreen} />
         <Stack.Screen name="HookEg" component={HookEg} />
         <Stack.Screen name="ServiceEg" component={ServiceEg} />
+        <Stack.Screen name="StoreEg" component={StoreEg} />
       </Stack.Navigator>
     </NavigationContainer>
   );

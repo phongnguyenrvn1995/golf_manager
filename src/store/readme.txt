@@ -1,5 +1,8 @@
 src/store/
-├── actions/
+├── context/
+│   ├── AppContext.tsx
+│   └── AppProvider.tsx
 ├── reducers/
-├── selectors/
-└── store.ts
+│   ├── appReducer.ts
+│   └── actionTypes.ts
+└── index.ts
