@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Lato-Thin.ttf",
+      "sha1": "07290446bee3f81ce501a3c3dbfde6097c70ca15"
+    },
+    {
+      "path": "src/assets/fonts/PlaywriteVN-VariableFont_wght.ttf",
+      "sha1": "fa87e3c3fff619107a8a88ee8f85927d9d7d6315"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Regular.ttf",
+      "sha1": "00d62fbdc8d5dec4c659005e116d0ba2ee63b547"
+    },
+    {
+      "path": "src/assets/fonts/UKIJTuz.ttf",
+      "sha1": "0859ef5a0070adbf0b1f4f3d2848f6a2c11b9612"
+    }
+  ]
+}
