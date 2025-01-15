@@ -7,8 +7,7 @@ const ProfileScreen = ({ navigation }: { navigation: any }) => {
       <Text>Profile Screen</Text>
       <Button
         title="Go Back"
-        onPress={() => navigation.goBack()}
-      />
+        onPress={() => navigation.goBack()} />
     </View>
   );
 };
