@@ -48,6 +48,15 @@ export const EgScreen = ({navigation}: {navigation: any}) => {
                     <Text>Assets folder sample</Text>
                 </View>
             </TouchableHighlight>
+            
+            <TouchableHighlight
+                activeOpacity={0.6}
+                underlayColor="#DDDDDD"
+                onPress={() => { navigation.navigate('ComponentEg') }}>
+                <View style={{padding: 20, backgroundColor: 'cyan'}}>
+                    <Text>Components folder sample</Text>
+                </View>
+            </TouchableHighlight>
         </View>
     );
 }
