@@ -1,4 +1,5 @@
 import { Image, ImageBackground, StyleSheet, Text, View } from "react-native";
+import { fonts } from "../../utils/fonts";
 
 export const AssetsEg = ({ navigation }: { navigation: any}) => {
     return (
@@ -7,10 +8,10 @@ export const AssetsEg = ({ navigation }: { navigation: any}) => {
             style={styles.background}>
                 <View style={styles.overlay}>
                     <Image source={require('../../assets/images/logo.png')} style={styles.logo} />
-                    <Text style={{...styles.text, fontFamily: 'Lato-Thin', fontSize: 20}}>Welcome to the App</Text>
-                    <Text style={{...styles.text, fontFamily: 'Roboto-Regular', fontSize: 20}}>Welcome to the App</Text>
-                    <Text style={{...styles.text, fontFamily: 'UKIJTuz', fontSize: 20}}>Welcome to the App</Text>
-                    <Text style={{...styles.text, fontFamily: 'PlaywriteVN-VariableFont_wght', fontSize: 20}}>Welcome to the App</Text>
+                    <Text style={{...styles.text, fontFamily: fonts.latoThin, fontSize: 20}}>Welcome to the App</Text>
+                    <Text style={{...styles.text, fontFamily: fonts.robotoRegular, fontSize: 20}}>Welcome to the App</Text>
+                    <Text style={{...styles.text, fontFamily: fonts.uKIJTuz, fontSize: 20}}>Welcome to the App</Text>
+                    <Text style={{...styles.text, fontFamily: fonts.playwriteVN, fontSize: 20}}>Welcome to the App</Text>
                 </View>
         </ImageBackground>
     );
