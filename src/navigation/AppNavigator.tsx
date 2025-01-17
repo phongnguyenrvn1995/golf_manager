@@ -1,16 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import HomeScreen from "../screens/samples/HomeScreen";
-import ProfileScreen from "../screens/samples/ProfileScreen";
-import ChangeLangScreen from "../screens/samples/ChangeLangScreen";
-import { UseStyleEg } from "../screens/samples/UseStyleEg";
-import { EgScreen } from "../screens/samples/EgScreen";
-import { HookEg } from "../screens/samples/HookEg";
-import { ServiceEg } from "../screens/samples/ServiceEg";
-import { StoreEg } from "../screens/samples/StoreEg";
-import { AssetsEg } from "../screens/samples/AssetsEg";
-import { ComponentEg } from "../screens/samples/ComponentEg";
 import Home from "../screens/Home/Home";
 import Profile from "../screens/Profile/Profile";
 
