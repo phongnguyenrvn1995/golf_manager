@@ -8,6 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
+    "android:prepare": "npx react-native bundle --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --platform android --dev false --minify true",
+    "ios:prepare": "npx react-native bundle --entry-file index.js --bundle-output ./ios/main.jsbundle --platform ios --dev false --minify true",
     "android:debug": "cd android && ./gradlew assembleDebug",
     "android:release": "cd android && ./gradlew assembleRelease"
   },
